@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>oye_lga_weather_monitoring_forecast/</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="backgroundCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="background-2.jpg" alt="Background 1" />
+        </div>
+        <div class="carousel-item">
+          <img src="background-1.jpg" alt="Background 2" />
+        </div>
+        <div class="carousel-item">
+          <img src="background-3.jpg" alt="Background 3" />
+        </div>
+      </div>
+    </div>
+
+    <form>
+      <div class="app-header">
+        Weather Web App Project
+      </div>
+
+      <div class="form-body">
+        <div class="form-row">
+          <h3>Oye LGA Weather Monitoring & Forecast Application</h3>
+        </div>
+
+        <div class="form-row">
+          <select class="js-select">
+            <option value="">-- Select a town --</option>
+            <option value="Oye">Oye-Ekiti</option>
+            <option value="Ayegbaju">Ayegbaju-Ekiti</option>
+            <option value="Ilupeju">Ilupeju-Ekiti</option>
+            <option value="Ire">Ire-Ekiti</option>
+            <option value="Omu">Omu-Ekiti</option>
+            <option value="Iloje">Iloje-Ekiti</option>
+            <option value="Ilemeso">Ilemeso-Ekiti</option>
+            <option value="Isan">Isan-Ekiti</option>
+            <option value="Osin">Osin-Ekiti</option>
+            <option value="Itapa">Itapa-Ekiti</option>
+            <option value="Imojo">Imojo-Ekiti</option>
+            <option value="Ijelu">Ijelu-Ekiti</option>
+            <option value="Ayede">Ayede-Ekiti</option>
+            <option value="Ilafon">Ilafon-Ekiti</option>
+            <option value="Itaji">Itaji-Ekiti</option>
+          </select>
+          <button type="button" class="js-button" title="Search">Search</button>
+          <button type="button" class="js-unit-toggle unit-toggle" data-unit="metric">°C</button>
+        </div>
+
+        <div class="weather-info js-weather-info">
+          <p class="js-day-time-display"></p>
+        </div>
+      </div>
+    </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+  </body>
+  </html>
