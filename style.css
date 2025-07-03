@@ -193,6 +193,8 @@ select.form-control:focus {
   color: var(--text-color);
   margin-bottom: 15px;
   text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 }
 
 .emoji-description {
