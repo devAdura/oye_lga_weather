@@ -144,7 +144,7 @@ select.form-control:focus {
 }
 
 .unit-toggle:hover {
-    background-color: #004a9e;
+  background-color: #004a9e;
   color: white;
 }
 
@@ -283,9 +283,11 @@ select.form-control:focus {
 }
 
 .forecast-desc {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--text-color);
   font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 .chart-container {
